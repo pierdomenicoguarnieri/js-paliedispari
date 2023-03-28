@@ -1,3 +1,5 @@
+const output = document.getElementById("output");
+
 let choice;
 
 let n;
@@ -41,3 +43,7 @@ function calculateWinner(scelta, nUtente, nComputer){
 
   return message;
 }
+
+output.innerHTML=`
+Hai scelto ${choice} ed hai inserito il numero ${n}, il computer ha generato il numero ${nComputer}. La somma dei due numeri è ${n + nComputer}. ${message}
+`
