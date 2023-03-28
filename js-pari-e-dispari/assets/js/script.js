@@ -9,3 +9,10 @@ do{
 do {
   n = parseInt(prompt("Inserisci un numero tra 1 e 5"));
 } while (n <= 1 && n>= 5);
+
+const nComputer = randomNumber();
+
+function randomNumber(){
+  let n = Math.floor(Math.random() * 5) + 1;
+  return n;
+}
