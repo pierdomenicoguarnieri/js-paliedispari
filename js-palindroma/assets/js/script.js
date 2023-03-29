@@ -1,4 +1,4 @@
-const word = prompt("Inserisci una parola").toLowerCase();
+const word = prompt("Inserisci una parola").toLowerCase().trim();
 
 const output = document.getElementById("output");
 
