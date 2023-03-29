@@ -34,3 +34,4 @@ L’utente sceglie pari o dispari e inserisce un numero da 1 a 5. Generiamo un n
 
 ## References
 
+[W3Schools Switch Statement](https://www.w3schools.com/js/js_switch.asp)
