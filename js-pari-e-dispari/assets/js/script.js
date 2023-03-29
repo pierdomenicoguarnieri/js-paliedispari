@@ -5,11 +5,11 @@ let choice;
 let n;
 
 do{
-  choice =  prompt("Cosa scegli? Pari o Dispari?").toLowerCase();
+  choice =  prompt("Cosa scegli? Pari o Dispari?").toLowerCase().trim();
 }while(choice !== "pari" && choice !== "dispari")
 
 do {
-  n = parseInt(prompt("Inserisci un numero tra 1 e 5"));
+  n = parseInt(prompt("Inserisci un numero tra 1 e 5")).trim();
 } while (n <= 1 && n>= 5);
 
 const nComputer = randomNumber();
