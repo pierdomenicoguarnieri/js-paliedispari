@@ -24,4 +24,3 @@ function wordCheck(word){
 
   return flag;
 }
-
