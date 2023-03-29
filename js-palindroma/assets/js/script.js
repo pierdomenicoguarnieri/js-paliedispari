@@ -12,9 +12,7 @@ function wordCheck(word){
 
   let flag = true;
 
-  if(word.length % 2){
-    wordMiddlePoint = Math.floor((word.length)/2);
-  }
+  if(word.length % 2) wordMiddlePoint = Math.floor((word.length)/2);
 
   for(let i = 0; i < word.length; i++){
     if(i === wordMiddlePoint){
