@@ -9,7 +9,7 @@ do{
 }while(choice !== "pari" && choice !== "dispari")
 
 do {
-  n = parseInt(prompt("Inserisci un numero tra 1 e 5")).trim();
+  n = parseInt(prompt("Inserisci un numero tra 1 e 5"));
 } while (n <= 1 && n>= 5);
 
 const nComputer = randomNumber();
