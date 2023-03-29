@@ -17,9 +17,11 @@ function wordCheck(word){
   }
 
   for(let i = 0; i < word.length; i++){
-    if(i === wordMiddlePoint) continue;
-
-    if(word[i] !== word[word.length - 1]) flag = false;
+    if(i === wordMiddlePoint){
+      continue;
+    }else if(word[i] !== word[word.length - 1]){
+      flag = false;
+    }
   }
 
   return flag;
